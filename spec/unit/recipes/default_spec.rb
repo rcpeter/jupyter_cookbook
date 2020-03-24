@@ -1,9 +1,9 @@
 require 'spec_helper'
 
 describe 'jupyter::default' do
-  context 'When all attributes are default, on an Ubuntu 16.04' do
+  context 'When all attributes are default, on #specify system platform and version' do
     let(:chef_run) do
-      runner = ChefSpec::ServerRunner.new(platform: 'ubuntu', version: '16.04')
+      runner = ChefSpec::ServerRunner.new(platform: '', version: '')
       runner.converge(described_recipe)
     end
 

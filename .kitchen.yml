@@ -2,6 +2,7 @@
 driver:
   name: vagrant
 
+#add proxy to provisioner
 provisioner:
   name: chef_zero
   always_update_cookbooks: true

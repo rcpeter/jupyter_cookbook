@@ -1,4 +1,5 @@
-#resource file
+#resource file - notebook_service
+#Built for testing on Ubuntu Platform
 property :username, String, default: 'jupyter'
 property :groupname, String, default: 'jupyter'
 property :service_name, String, name_property: true

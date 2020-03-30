@@ -11,7 +11,7 @@ verifier:
   name: inspec
 
 platforms:
-  - name: ---specify amazon based linux machine
+  - name: ---specify Ubuntu version or change all files for other os
 
 suites:
   - name: default
